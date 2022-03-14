@@ -1,0 +1,178 @@
+/* @media (min-width: 1400px){} (extra large)
+@media (min-width: 1200px) and (max-width: 1399.98px) {} (extra large)
+@media (min-width: 992px) and (max-width: 1199.98px) {}(large)
+@media (min-width: 768px) and (max-width: 991.98px) {}(medium)
+@media (min-width: 576px) and (max-width: 767.98px) {} (small) */
+
+
+
+
+@media (max-width: 575.98px) {
+
+    /* menu part s */
+
+    #menu_part .navbar-toggler-icon i {
+        font-size: 30px;
+    }
+
+    #menu_part .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #banner_part h1 {
+        font-size: 21px;
+    }
+
+    #banner_part p {
+        font-size: 8px;
+        margin: 15px 0;
+    }
+
+    #banner_part a {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    #banner_part {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+
+    #menu_part ul {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        padding-bottom: 5px;
+    }
+
+    #menu_part ul li {
+        margin-left: 10px;
+    }
+
+    #menu_part ul li a:hover::after {
+        width: 35%;
+    }
+
+    /* menu part e*/
+
+
+    /* project part s */
+
+    #project_part p {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    #project_part .pre i {
+        left: 58px;
+        top: -13px;
+    }
+
+    #project_part .nxt i {
+        right: 57px;
+        top: -13px;
+    }
+
+    #project_part .item .overlay1 h4 {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+
+    #project_part .item .overlay1 .btn2 {
+        padding: 2px 5px;
+    }
+
+    #project_part .item .overlay1 a {
+        padding: 2px 7px;
+    }
+
+    #project_part img {
+        margin-left: 60px;
+    }
+
+    #project_part .item .overlay1 {
+        left: 60px;
+    }
+
+    #project_part span a {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    /* project part e */
+
+
+    /* about part s */
+
+    #about_part {
+        padding: 20px 0;
+    }
+
+    #about_part .text p {
+        margin-bottom: 0px;
+    }
+
+    #about_part .item h2 {
+        font-size: 20px;
+    }
+
+    #about_part .item h6 {
+        font-size: 10px;
+    }
+
+    #about_part .item .cv_bt {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+
+    #about_part img {
+        width: 50%;
+        margin-left: 64px;
+    }
+
+    #about_part .i_2 .ao {
+        left: 64px;
+    }
+
+    /* about part e */
+
+
+    /* service part s */
+
+    #service_part {
+        padding-top: 120px;
+    }
+
+    #service_part p {
+        font-size: 38px;
+    }
+
+    #service_part .s_item {
+        margin: 10px 0;
+    }
+
+    /* service part e */
+
+
+    /* contact part s */
+
+    #cont_part {
+        padding-top: 30px;
+    }
+
+    #cont_part .text p {
+        font-size: 37px;
+    }
+
+    #cont_part .cc {
+        margin: 20px 0;
+    }
+
+    #cont_part h6 {
+        font-size: 10px;
+    }
+
+    /* contact part e */
+
+
+}

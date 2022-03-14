@@ -1,0 +1,17 @@
+Thin 100
+Extra-light 200
+Light 300
+Regular 400
+Medium 500
+Semi-bold 600
+Bold 700
+
+font-family: 'Josefin Sans', sans-serif;
+
+#project_part .item .overlay1 .btn2 {
+	padding: 6px 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .4s;
+	margin-right: 5px;
+}

@@ -1,0 +1,538 @@
+/* common css s */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p,
+span,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* common css e */
+
+
+/* menu part s */
+#menu_part {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#menu_part .navbar-brand h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #010101;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+#menu_part .navbar-brand h1:hover {
+    color: #010101;
+}
+
+#menu_part .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#menu_part ul li a {
+    margin-right: 44px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #989696;
+    position: relative;
+}
+
+#menu_part ul li a::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #010101;
+    transition: 0.4s;
+}
+
+#menu_part ul li a:hover::after {
+    height: 2px;
+    width: 100%;
+}
+
+#menu_part ul li a:hover {
+    /* box-shadow: 2px 2px 2px 2px orange; */
+    color: #010101;
+}
+
+/* menu part e */
+
+
+/* banner part s */
+
+#banner_part {
+    padding-top: 300px;
+    padding-bottom: 140px;
+    background: url(../image/bc-1.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+#banner_part h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 41px;
+    color: #1d1e1f;
+    text-transform: uppercase;
+}
+
+#banner_part p {
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #898888;
+    margin: 30px 0;
+}
+
+#banner_part a {
+    padding: 10px 25px;
+    border: 1px solid #898888;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #898888;
+    position: relative;
+    transition: .4s;
+}
+
+#banner_part a:hover {
+    border: 1px solid #010101;
+    color: #010101;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+/* banner part e */
+
+
+/* project part s */
+
+#project_part {
+    background-color: #010101;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+    clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
+}
+
+#project_part p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #989696;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .4s ease-in-out;
+}
+
+#project_part img {
+	height: 50%;
+	width: 60%;
+	margin-left: 50px;
+}
+
+#project_part .item {
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#project_part .item .overlay1 {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    height: 100%;
+	width: 60%;
+    background-color: rgba(152, 150, 150, 0.3);
+    opacity: 0;
+    transition: .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project_part .item:hover .overlay1 {
+    opacity: 1;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+#project_part .item .overlay1 h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#project_part .item .overlay1 a i {
+    color: #fff;
+    font-size: 15px;
+    transition: .4s;
+}
+
+#project_part .item .overlay1 a {
+	padding: 2px 7px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .4s;
+	margin-right: 5px;
+}
+
+#project_part .item .overlay1 .btn2 {
+	padding: 3px 7px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .4s;
+	margin-right: 5px;
+}
+
+#project_part .item .overlay1 a:hover i {
+    color: #010101;
+}
+
+#project_part .item .overlay1 a:hover {
+    border: 1px solid #010101;
+    box-shadow: 2px 2px 2px 2px #010101;
+}
+
+#project_part span a {
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: 1px solid #898888;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1d1e1f;
+    position: relative;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+}
+
+#project_part span a:hover {
+    border: 1px solid #010101;
+    color: #989696;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+/* project part e */
+
+
+/* about part e */
+
+#about_part {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about_part .text p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #989696;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .4s ease-in-out;
+}
+
+#about_part img {
+    width: 50%;
+}
+
+#about_part .item {
+    margin-top: 30px;
+}
+
+#about_part .item h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	color: #1d1e1f;
+	text-transform: uppercase;
+	margin-top: 15%;
+}
+
+#about_part .item h6 {
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #898888;
+    margin: 10px 0;
+}
+
+#about_part .item .cv_bt {
+    padding: 10px 25px;
+    border: 1px solid #898888;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #898888;
+    position: relative;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#about_part .item .cv_bt:hover {
+    border: 1px solid #010101;
+    color: #010101;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+#about_part .i_2 {
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+}
+
+#about_part .i_2 .ao {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(1, 1, 1, 0.5);
+    opacity: 0;
+    transition: .4s;
+}
+
+#about_part .i_2:hover .ao {
+    opacity: 1;
+    border: 1px solid #010101;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+#about_part .i_2 .ao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_part .i_2 .ao a {
+    padding: 6px 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .4s;
+    margin-right: 5px;
+}
+
+#about_part .i_2 .ao a:hover {
+    border: 1px solid #989696;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+#about_part .i_2 .ao i {
+    color: #fff;
+    font-size: 15px;
+    transition: .4s;
+    color: white;
+}
+
+/* about part s */
+
+
+/* service part s */
+
+#service_part {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #010101;
+    text-align: center;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+#service_part p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #989696;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: .4s ease-in-out;
+}
+
+#service_part .s_item h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1d1e1f;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#service_part .s_item a {
+    padding: 7px 10px;
+    border: 1px solid #1d1e1f;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
+#service_part .s_item i {
+    color: #1d1e1f;
+    transition: .4s;
+}
+
+#service_part .s_item {
+    padding: 30px 0;
+    border: 1px solid #989696;
+    cursor: pointer;
+}
+
+#service_part .s_item:hover {
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+#service_part .s_item:hover h1 {
+    color: #989696;
+}
+
+#service_part .s_item:hover a{
+    border: 1px solid #989696;
+}
+
+#service_part .s_item:hover i{
+    color: #989696;
+}
+
+#service_part .service_blg{
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: 1px solid #898888;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1d1e1f;
+    position: relative;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+}
+
+#service_part .service_blg:hover {
+    border: 1px solid #010101;
+    color: #989696;
+    box-shadow: 2px 2px 2px 2px #989696;
+}
+
+/* service part e */
+
+
+
+/* contact part s */
+
+#cont_part{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#cont_part .text p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #989696;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: .4s ease-in-out;
+}
+
+#cont_part .item p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #989696;
+    margin-top: 5px;
+}
+
+#cont_part h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1d1e1f;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+/* contact part e */
+
+
+
+/* project part slider s */
+
+#project_part .pre{
+    position: relative;
+}
+
+#project_part .pre i {
+	position: absolute;
+	left: -30px;
+	top: 52px;
+	font-size: 20px;
+}
+
+#project_part .pre:hover i{
+    color: #898888;
+}
+
+#project_part .nxt:hover i{
+    color: #898888;
+}
+
+#project_part .nxt{
+    position: relative;
+}
+
+#project_part .nxt i {
+	position: absolute;
+	right: -30px;
+	top: 52px;
+	font-size: 20px;
+}
+
+/* project part slider e */
